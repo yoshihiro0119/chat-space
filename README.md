@@ -71,7 +71,3 @@ Things you may want to cover:
 - belongs_to :group
 - belongs_to :user
 
-
-
-
-
