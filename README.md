@@ -43,14 +43,15 @@ Things you may want to cover:
 
 
 ### Association
-- has_many :group, through: :group_uers
+- has_many :groups_users
+- has_many :groups, through: :groups_uers
 - has_many :messages
 
 
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|username|string|null: false|
+|name|string|null: false|
 |email|string|null: false, unipue: true|
 |password|string|null: false|
 
